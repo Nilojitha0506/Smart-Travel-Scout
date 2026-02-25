@@ -171,7 +171,7 @@ ${priceContext}
       .filter(match => validIds.has(match.id))
       .map(match => {
         const item = TRAVEL_DATA.find(i => i.id === match.id)!;
-        let reason = match.reason || "AI matched perfectly";
+        let reason = match.reason || "matched perfectly";
 
         if (minPrice !== null && item.price >= minPrice) reason += ` + >=$${minPrice}`;
         if (maxPrice !== null && item.price <= maxPrice) reason += ` + <=$${maxPrice}`;
@@ -187,7 +187,7 @@ ${priceContext}
     return results.length > 0 ? results : null;
 
   } catch {
-    console.log("AI failed, using keywords");
+    console.log("failed, using keywords");
     return null;
   }
 }

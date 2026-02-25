@@ -131,7 +131,7 @@ export default function Home() {
           Explore Dream Destinations
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-slate-800 font-medium w-full max-w-4xl mx-auto leading-tight px-2 sm:px-0">
-          Discover perfect adventures with AI-powered search
+          Discover perfect adventures
         </p>
       </div>
       <div className="sticky top-1 sm:top-2 z-50 mb-4 sm:mb-6 lg:mb-8 w-full px-4 sm:px-6 lg:px-0">
@@ -237,7 +237,7 @@ export default function Home() {
             <div className="col-span-full flex flex-col items-center justify-center py-20 sm:py-24 lg:py-32 space-y-4">
               <div className="w-16 sm:w-20 h-16 sm:h-20 border-4 border-emerald-200 border-t-emerald-500 rounded-full animate-spin"></div>
               <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-emerald-600 via-emerald-500 to-emerald-400 bg-clip-text text-transparent">
-                AI Finding Perfect Matches...
+                Finding Perfect Matches...
               </div>
             </div>
           ) : sortedResults.length > 0 ? (
@@ -307,7 +307,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-6 text-xs sm:text-sm">
             <p className="text-slate-800 font-semibold bg-gradient-to-r from-emerald-600 to-emerald-500 bg-clip-text text-transparent">
-              © 2026 Dream Destinations. Powered by AI 
+              © 2026 Dream Destinations.
             </p>
             <div className="w-16 h-px bg-gradient-to-r from-emerald-300 to-emerald-400"></div>
             <div className="flex gap-4 text-slate-700 font-medium">
