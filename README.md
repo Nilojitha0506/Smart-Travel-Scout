@@ -1,11 +1,8 @@
-````markdown
 # Smart Travel Scout
 
 Smart Travel Scout is a **Next.js** web application that helps users discover the best travel experiences using AI-powered search. Users can enter natural-language queries (e.g., "beach under $100") and get curated recommendations from a predefined inventory. The AI provides clear reasoning behind each suggestion, ensuring results are grounded in the inventory only.  
 
 This project was created as part of a technical assessment to demonstrate full-stack development, AI integration, and UX design.
-
----
 
 ## Features
 
@@ -16,8 +13,6 @@ This project was created as part of a technical assessment to demonstrate full-s
 - Responsive UI with **Tailwind CSS**
 - Smooth animations and category tabs
 - Fully deployed on [Vercel](https://vercel.com)
-
----
 
 ## Getting Started
 
