@@ -1,18 +1,22 @@
 # Smart Travel Scout
 
-Smart Travel Scout is a **Next.js** web application that helps users discover the best travel experiences using AI-powered search. Users can enter natural-language queries (e.g., "beach under $100") and get curated recommendations from a predefined inventory. The AI provides clear reasoning behind each suggestion, ensuring results are grounded in the inventory only.  
+**Project Name:** Smart Travel Scout  
 
-This project was created as part of a technical assessment to demonstrate full-stack development, AI integration, and UX design.
+**GitHub Repository:** [https://github.com/Nilojitha0506/Smart-Travel-Scout](https://github.com/Nilojitha0506/Smart-Travel-Scout)  
+**Live Demo:** [https://smart-travel-scout-seven.vercel.app/](https://smart-travel-scout-seven.vercel.app/)
+
+## Description
+
+Smart Travel Scout is a **Next.js** web application that provides **AI-powered travel recommendations**. Users can type natural-language queries (e.g., "beach under $100") and get curated results from a predefined inventory. Each result includes reasoning, tags, location, and price, ensuring the AI stays grounded to the inventory.
 
 ## Features
 
-- AI-powered search using **OpenAI GPT-4o-mini**
-- Budget filters (min/max price) and category filters (beach, hiking, history, etc.)
-- Sorted results by price or name
-- Clear reasoning for each match: tags, location, price
-- Responsive UI with **Tailwind CSS**
-- Smooth animations and category tabs
-- Fully deployed on [Vercel](https://vercel.com)
+- AI-powered search using **OpenAI GPT-4o-mini**  
+- Budget (min/max) and category filters (beach, hiking, history, etc.)  
+- Sorted results by price or name  
+- Clear reasoning for each match: tags, location, and price  
+- Responsive UI built with **Tailwind CSS**  
+- Smooth animations and category tabs for better UX  
 
 ## Getting Started
 
@@ -25,7 +29,7 @@ This project was created as part of a technical assessment to demonstrate full-s
 
 Clone the repository:  
 ```bash
-git clone https://github.com/YOUR_USERNAME/Smart-Travel-Scout.git
+git clone https://github.com/Nilojitha0506/Smart-Travel-Scout.git
 cd Smart-Travel-Scout
 ````
 
@@ -50,17 +54,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in your browser. The page auto-updates as you edit `app/page.tsx`.
-
----
-
-## Deployment
-
-This project is deployed on **Vercel**. To deploy:
-
-1. Push your code to GitHub.
-2. Import the repository on [Vercel](https://vercel.com/new).
-3. Add an environment variable `OPENAI_API_KEY` with your OpenAI key.
-4. Deploy — the app will be live at your Vercel URL.
 
 ---
 
